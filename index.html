@@ -9,6 +9,8 @@
     <!-- Bootstrap Stylsheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font-awesome  -->
+    <script src="https://kit.fontawesome.com/7ee3d4b0cd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -90,7 +92,7 @@
     <main>
         <!-- Food Section  -->
         <section class="container p-5">
-            <h1 class="fs-1 fw-bold mt-3">Delicious Food Items We Offer</h1>
+            <h1 class="fs-1 fw-bold text-center mt-3">Delicious Food Items We Offer</h1>
             <div class="row g-2">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
@@ -110,24 +112,134 @@
                         <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                             aria-labelledby="list-home-list">You will never forget the mouth watering taste of the
                             kachchi biryani we provide. Made with the finest ingredients this kachchi is the best in
-                            town</div>
+                            town<br> <button type="button" class="btn btn-outline-info" id="liveToastBtn">Place
+                                Order</button>
+                        </div>
                         <div class="tab-pane fade" id="list-profile" role="tabpanel"
                             aria-labelledby="list-profile-list">Fall in love with our fine tandoori chicken. We pick our
-                            chickens from the finest farms in bangladesh so you get the best taste</div>
+                            chickens from the finest farms in bangladesh so you get the best taste<br> <button
+                                type="button" class="btn btn-outline-info">Place Order</button> </div>
                         <div class="tab-pane fade" id="list-messages" role="tabpanel"
                             aria-labelledby="list-messages-list">Gulab Jamon is the must try dessert from Trench
                             Catering. This delicious desert is so yummy even Sir Ananta Jalil comes to our convention
-                            hall regularly to savor it</div>
+                            hall regularly to savor it<br> <button type="button" class="btn btn-outline-info">Place
+                                Order</button>
+                        </div>
                         <div class="tab-pane fade" id="list-settings" role="tabpanel"
                             aria-labelledby="list-settings-list">What is a wedding without Borhoni? Whether it is
-                            kachchi or it is with tandoori items people must have a drink to quench their thirst. Our
-                            Borhoni is made from rich items imported from all over the world</div>
+                            kachchi or it is with tandoori items people must have a drink to quench their thirst. <br>
+                            <button type="button" class="btn btn-outline-info">Place Order</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
+
+
         </section>
         <!-- Food Section End -->
+
+        <!-- Package Section Start  -->
+        <section class="container mb-5">
+            <h1 class="fs-1 fw-bold text-center mt-3">Our Package</h1>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column my-5">
+                            <h1 class="card-title m-2" style="color:#231D4F">$300</h1>
+                            <h2 class="card-title m-2" style="color:#231D4F">Business Fair</h2>
+                            <h5 class="card-subtitle m-2 text-muted">For most businesses event
+                                like book fair, craft fair.</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> limited space
+                                access</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> limited food
+                                supplies</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> uncomfortable
+                                bed
+                                service</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> no food for
+                                kids</h5>
+
+                            <button type="button" class="btn btn-light fw-bold m-2"
+                                style=" background-color: #ffdbf2; border-radius: 24px; color: #3F87F5; ">Choose
+                                Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column my-5">
+                            <h1 class="card-title m-2" style="color:#231D4F">$500</h1>
+                            <h2 class="card-title m-2" style="color:#231D4F">Wedding Basic</h2>
+                            <h5 class="card-subtitle m-2 text-muted">For most businesses event
+                                like book fair, craft fair.</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> more space
+                                access</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> more food
+                                supplies</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> comfortable bed
+                                service</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> limited food
+                                for
+                                kids</h5>
+
+                            <button type="button" class="btn btn-light fw-bold m-2"
+                                style=" background-color: #ffdbf2; border-radius: 24px; color: #3F87F5; ">Choose
+                                Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column my-1 pb-5 bg-success text-white rounded-3">
+                            <h1 class="card-title m-2">$800</h1>
+                            <h2 class="card-title m-2">Wedding Plus</h2>
+                            <h5 class="card-subtitle m-2 ">For most businesses event
+                                like book fair, craft fair.</h5>
+                            <h5 class="card-subtitle m-2 "><i class="far fa-check-circle"></i> unlimited space
+                                access</h5>
+                            <h5 class="card-subtitle m-2 "><i class="far fa-check-circle"></i> unlimited
+                                borhani
+                                supplies</h5>
+                            <h5 class="card-subtitle m-2 "><i class="far fa-check-circle"></i> super bed
+                                service</h5>
+                            <h5 class="card-subtitle m-2 "><i class="far fa-check-circle"></i> free food for
+                                guests</h5>
+
+                            <button type="button" class="btn btn-light fw-bold m-2"
+                                style=" background-color: white; border-radius: 24px; color: #3F87F5; ">Choose
+                                Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0" style="width: 18rem;">
+                        <div class="card-body d-flex flex-column my-5">
+                            <h1 class="card-title m-2" style="color:#231D4F">$1300</h1>
+                            <h2 class="card-title m-2" style="color:#231D4F">Corporate Event</h2>
+                            <h5 class="card-subtitle m-2 text-muted">For Corporate Parties.</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> unlimited space
+                                access</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> unlimited
+                                kachchi
+                                biriyani</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> reclining bed
+                                facilites</h5>
+                            <h5 class="card-subtitle m-2 text-muted"><i class="far fa-check-circle"></i> free food for
+                                everyone</h5>
+
+                            <button type="button" class="btn btn-light fw-bold m-2"
+                                style=" background-color: #ffdbf2; border-radius: 24px; color: #3F87F5; ">Choose
+                                Plan</button>
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+        <!-- Package Section End -->
+
+
 
 
     </main>
